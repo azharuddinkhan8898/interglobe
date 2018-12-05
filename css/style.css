@@ -17,29 +17,30 @@ body, html{
 }
 
 .custom-section img.left-img{
-    left: -20vw;
-    top: -3vw;
-    width: 58.4vw;
+    left: 0;
+    top: -13vw;
+    width: 57.2vw;
     opacity: 0;
 }
 
 .custom-section.go img.left-img{
-    left: 0;
+    top: -2.4vw;
     opacity: 1;
-    transition: left .5s ease, opacity .5s ease;
+    transition: top .5s ease, opacity .5s ease;
 }
 
 .custom-section img.right-img{
-    right: -22.1vw;
-    width: 51.8vw;
+    right: 0;
+    width: 50.7vw;
     transform: rotateZ(-1deg); 
     opacity: 0;
+    bottom: -10vw;
 }
 
 .custom-section.go img.right-img{
-    right: -2.1vw;
+    bottom: 0vw;
     opacity: 1;
-    transition: right .5s ease, opacity .5s ease;
+    transition: bottom .5s ease, opacity .5s ease;
 }
 
 .custom-section img.left-img-back{
@@ -68,7 +69,7 @@ body, html{
 
 
 .custom-section.go .center-model-img{
-    bottom: -1.2vw;
+    bottom: -1.1vw;
     opacity: 1;
     transition: bottom 0.4s ease, opacity 0.4s ease;
     transition-delay: 0.5s;
