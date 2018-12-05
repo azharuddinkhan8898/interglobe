@@ -30,8 +30,8 @@ body, html{
 }
 
 .custom-section img.right-img{
-    right: 0;
-    width: 50.7vw;
+    right: 0.4vw;
+    width: 50.3vw;
     transform: rotateZ(-1deg); 
     opacity: 0;
     bottom: -10vw;
