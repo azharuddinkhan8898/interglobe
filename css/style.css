@@ -1,0 +1,75 @@
+body, html{
+    overflow-x: hidden;
+}
+
+.custom-section p{
+    position: absolute;
+    top: -100px;
+}
+
+.custom-section{
+    margin: 1000px 0px;
+    position: relative;
+    height: 37.7vw;
+}
+.custom-section > img{
+    position: absolute;
+}
+
+.custom-section img.left-img{
+    left: -20vw;
+    top: -3vw;
+    width: 58.4vw;
+    opacity: 0;
+}
+
+.custom-section.go img.left-img{
+    left: 0;
+    opacity: 1;
+    transition: left .5s ease, opacity .5s ease;
+}
+
+.custom-section img.right-img{
+    right: -22.1vw;
+    width: 51.8vw;
+    transform: rotateZ(-1deg); 
+    opacity: 0;
+}
+
+.custom-section.go img.right-img{
+    right: -2.1vw;
+    opacity: 1;
+    transition: right .5s ease, opacity .5s ease;
+}
+
+.custom-section img.left-img-back{
+    left: 8vw;
+    top: 8vw;
+    width: 58.4vw;
+    opacity: 0;
+}
+
+.custom-section.go img.left-img-back{
+    left: 3vw;
+    top: 11vw;
+    width: 58.4vw;
+    opacity: 1;
+    transition: top 0.9s ease, opacity 0.9s ease, left 0.9s ease;
+    transition-delay: 1s;
+}
+
+.custom-section .center-model-img{
+    left: 50%;
+    bottom: -3.2vw;
+    transform: translateX(-50%);
+    width: 28.5vw;
+    opacity: 0;
+}
+
+
+.custom-section.go .center-model-img{
+    bottom: -1.2vw;
+    opacity: 1;
+    transition: bottom 0.4s ease, opacity 0.4s ease;
+    transition-delay: 0.5s;
+}
